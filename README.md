@@ -3,7 +3,11 @@
 <h1 align="center">Hi 👋, I'm Breana</h1>
 <h3 align="center">A passionate self-taught dev from the US</h3>
 
-- 🔭 I’m currently working on **my second real code project: a basic landing page using HTML and CSS**
+- 🔭 I’m currently working on **my second real code project: a basic landing page using HTML and CSS** based off of this example from The Odin project (https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
+
+- I chose to create my web page based on an idea for a company I had that makes custom gaming console controllers!
+
+- Note: None of the links will work and ChromaControllers is not a real company!
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
