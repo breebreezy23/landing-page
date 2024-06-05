@@ -101,7 +101,7 @@ ul {
     margin-top: 1rem;
 }
 
-.information {
+.second-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +140,7 @@ ul {
     text-align: center;
 }
 
-.quote {
+.third-section {
     margin: auto;
     background-color: #E5E7EB;
     color: #1F2937;
@@ -161,24 +161,21 @@ span {
 }
 
 button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 5px 15px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
+    width: 100px;
+    height: 75px;
 }
 
-.call-to-action1 {
+.action-button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 15px 15px;
     font-weight: 400;
+    font-size: 18px;
 }
 
-.call-to-action2 {
+.fourth-section {
     display: flex;
     margin: 100px 200px;
     background-color: #3882F6;
@@ -187,6 +184,34 @@ button {
     justify-content: space-between;
     color: #F9FAF8;
 }
+
+.action-box {
+    background-color: #3882F6;
+    width: 500px;
+    padding: 50px 50px;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+
+.action-text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.action-text {
+    font-size: 14px;
+    color: #F9FAF8;
+}
+
 
 .footer {
     text-align: center;
