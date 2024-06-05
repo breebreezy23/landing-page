@@ -1,5 +1,9 @@
-* {
-    font-family: Roboto;
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "roboto";
 }
 
 .header {
@@ -15,7 +19,8 @@
 }
 
 .hero-main {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     gap: 60px;
 }
@@ -26,13 +31,29 @@ h1 {
 
 .main-image {
     height: 300px;
-    padding-left: 20px;
+    float: left;
+}
+
+.top-text {
     display: flex;
-    align-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.bottom-text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+
+.smallimage {
+    border: 2px solid #1F2937;
 }
 
 .container {
     display: flex;
+    flex-direction: row;
     margin-top: 0px;
 }
 
@@ -49,6 +70,30 @@ ul {
     list-style-type: none;
     gap: 50px;
     margin-left: 850px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 1rem;
+}
+
+.container p {
+    margin-bottom: 1rem;
+}
+
+.container.main-image {
+    margin-bottom: 1rem;
+}
+
+.container.call-to-action1 {
+    margin-top: 1rem;
 }
 
 .information {
@@ -69,7 +114,7 @@ ul {
 .product-examples {
     display: flex;
     gap: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .examples {
@@ -94,12 +139,14 @@ ul {
     margin: auto;
     background-color: #E5E7EB;
     color: #1F2937;
+    border: 5px solid #1f2937;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
+
 }
 
 span {
@@ -108,7 +155,39 @@ span {
 
 }
 
-
 button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.call-to-action1 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 400;
+}
+
+.call-to-action2 {
+    display: flex;
+    margin: 100px 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 60px 80px;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 30px;
 }
